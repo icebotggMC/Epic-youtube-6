@@ -32,7 +32,7 @@ LET'S GO!
 
 client.on('ready', () => {
     console.log('Bot Is Ready Now !');
-    client.user.setGame(`${PREFIX}help`,"http://twitch.tv/xkilleryt")
+    client.user.setGame(`by:iixlin | ${PREFIX}help`,"http://twitch.tv/xkilleryt")
     });
 
 
@@ -316,7 +316,7 @@ client.on('message', async msg => { // eslint disable line
             timestamp: new Date(),
             footer: {
               icon_url: client.user.avatarURL,
-              text: "© IIAHMED BOT"
+              text: "© by:iixlin"
             }
           }
         });
