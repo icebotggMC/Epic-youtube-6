@@ -25,7 +25,7 @@ client.on('message', msg => {
 
 client.on('ready', () => {
     console.log('Bot Is Ready Now !');
-    client.user.setGame(`inv | Welcome`,"http://twitch.tv/xkilleryt")
+    client.user.setGame(`Caming Soon <3`,"http://twitch.tv/xkilleryt")
     });
 
 
