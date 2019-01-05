@@ -7,7 +7,7 @@ const GOOGLE_API_KEY = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';
 const youtube = new YouTube(GOOGLE_API_KEY);
 
 const queue = new Map();
-const PREFIX = '%';
+const PREFIX = '.';
 client.on('warn', console.warn);
 
 client.on('error', console.error);
